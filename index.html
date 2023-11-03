@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copywork Web App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Copywork Web App</h1>
+				<p>Select a work, start typing. Feel free to follow the text perfectly or just hit enter to go to the next line.</p>
+        
+        <select id="contentSelection">
+            <option value="poem">Poem - "If—" by Rudyard Kipling</option>
+            <option value="letter">Corporate Letter - Warren Buffett</option>
+            <option value="essay">Essay - "Self-Reliance" by Ralph Waldo Emerson</option>
+            <option value="story">Short Story - "The Gift of the Magi" by O. Henry</option>
+        </select>
+        <button onclick="startTyping()">Start</button>
+	<div id="progressContainer">
+                <div id="progressBar"></div>
+            </div>
+						 <p id="contentToCopy"></p>
+        <div id="typingArea" hidden>
+    <textarea id="userInput" rows="4" cols="50" oninput="checkInput()"></textarea>
+    <div id="typedSoFar"></div>
+   
+</div>
+            
+            
+            
+        </div>
+				...
+<div class="history">
+    <h2>The History and Benefits of Copywork</h2>
+    <p>
+        Copywork has deep roots that trace back centuries, long before the digital age. Historically, in the absence of printing presses and mass publication, scholars and students would reproduce manuscripts by hand, ensuring the dissemination and preservation of knowledge. These transcriptions were more than mere reproductions—they became an integral method of learning and internalizing the content.
+    </p>
+
+    <p>
+        Many renowned writers and thinkers, including Benjamin Franklin and Charlotte Mason, advocated for the benefits of copywork. Franklin, in his quest to improve his writing, meticulously copied articles and essays, later trying to recreate them from memory, a testament to the deep cognitive engagement of the process.
+    </p>
+
+    <p>
+        So, why engage in copywork in today's world of easy duplication and digitization? The reasons are manifold:
+    </p>
+
+    <ul>
+        <li><strong>Improvement in Writing Skills:</strong> As you copy, you subconsciously internalize sentence structures, vocabulary, and the rhythm of prose. Over time, this familiarity with well-crafted content shapes and refines one's writing style.</li>
+
+        <li><strong>Cognitive Engagement:</strong> The act of writing requires a deeper level of cognitive engagement compared to passive reading. Copywork ensures that the brain processes each word, leading to better comprehension and retention.</li>
+
+        <li><strong>Mindfulness and Focus:</strong> In an age of distractions, the slow, deliberate act of copying brings a level of mindfulness. It allows one to connect deeply with the content, fostering concentration and reducing the noise of the outside world.</li>
+
+        <li><strong>Appreciation of Literature:</strong> Through copywork, one can gain a profound appreciation for literature. Feeling each word and sentence flow through the hand allows for a deeper connection and understanding of the work.</li>
+    </ul>
+
+    <p>
+        In conclusion, while technology has transformed the way we engage with content, the ancient practice of copywork retains its significance. Whether you're looking to improve your writing, comprehend content more deeply, or simply find a meditative practice, copywork offers myriad benefits waiting to be discovered.
+    </p>
+</div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
